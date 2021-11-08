@@ -1,0 +1,19 @@
+#problemsCount,
+#userCount{
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    height: 35px;
+    width: 100px;
+}
+#counter {
+    display: block;
+    position: absolute;
+}
+
+#counterUser.anim,
+#counterProblem.anim {
+    transform: translateY(-90%);
+    transition-property: transform;
+    transition-duration: 2s;
+}
